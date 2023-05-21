@@ -54,7 +54,6 @@ function setupDates(selectedDate) {
     if (isSameDay(date, selectedDate)) {
       dateElement.classList.add("selected")
     }
-    console.log(selectedDate)
     dateElement.addEventListener("click", () => {
       setDate(date)
       datePicker.classList.remove("show")
